@@ -1,5 +1,3 @@
-//const fetch = require('node-fetch');
-
 const getData = async() => {
     try {
         const apiUr = 'https://api.themoviedb.org/3/genre/movie/list';
@@ -11,4 +9,4 @@ const getData = async() => {
     } catch (error) {
         console.log(error);
     }
-}
+};
